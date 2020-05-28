@@ -1,0 +1,69 @@
+.Banner {
+  background-color:#FAE3D9;
+  text-align:right;
+  height: 30px;
+  font-size: 7px;
+}
+
+h1 { 
+color: #DB7979
+}
+
+.banner.hover {
+  text-decoration: underline;
+}
+ 
+
+.Hero {
+  background-color:#FAE3D9;
+  width: 100%;
+  height: 400px;
+  text-align: left;
+     
+}
+
+h2{
+  color: white
+}
+
+ 
+h3 {
+text-align: center 
+}
+
+
+.Apropos {
+  background-color:white;
+  widht: 100%;
+  height: 400px;
+  display: flex;
+  text-align: center
+}
+
+#moi{
+  border-radius: 1000px;  
+}
+
+
+section1 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+section2 {
+  display: flex;
+  align-items: center;
+}
+
+
+.Compétences {
+  background-color:#AACFCF;
+  widht: 100%;
+  height: 400px;
+  display: flex;    
+}
+
+p1 {
+  color: #DB7979
+}
