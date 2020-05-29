@@ -30,7 +30,7 @@ section{
   
   
   /* Pour le test */
-  background-color: rgba(247, 195, 37, 0.56);
+ 
   border: 2px dashed rgb(247, 195, 37);
 }
 .child-small{
@@ -48,10 +48,12 @@ section{
 
 #hero{
   height: 65vh;
+  background-color: #FAE3D9
 }
 .navbar{
   margin: 0px 7%;
-  background-color: #FAE3D9
+  background-color: #FAE3D9;
+  color: #DB7979
 }
 
 .l-space{
@@ -61,10 +63,13 @@ section{
 #about {
    height: 65vh;
   background-color: white;
+  color: black;
 }
       
 #skill {
   height: 65vh; 
+  background-color: #AACFCF;
+  color: black;
 }
 
 .h-end { 
@@ -81,14 +86,52 @@ align-items: flex-end;
 
 #cursus {
   height: 65vh; 
+  color: black;
 }
 
 .Pres {
   width: 70%;
 }
 
-.Experiences {
+.Graduate {
   width: 20%;
- margin
+ 
   
+}
+
+#Experiences {
+  height: 65vh;
+  background-color: #AACFCF;
+  color: black
+}
+
+#Projets {
+  height: 65vh; 
+  color: black;
+}
+
+#contact {
+  height: 65vh;
+  color: black;
+  background-color: #AACFCF;
+}
+
+.Intro {
+  font-family: karla;
+}
+
+#Titre {
+  color: #536A6A
+}
+
+#Soustitre {
+  color: #536A6A
+}
+
+#Langues {
+  color: black;
+}
+
+#Bouton {
+ 
 }
