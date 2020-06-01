@@ -156,6 +156,18 @@ section{
   font-family: karla;
   
 }
+
+#Spain{
+   width: 30px;
+  height: 30px;
+}
+
+#English{
+  width: 30px;
+  height: 30px;
+}
+
+
 .h-end { 
 align-items: flex-end;
 }
