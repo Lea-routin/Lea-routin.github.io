@@ -44,18 +44,39 @@ section{
   width: 40%;
 }
 
+.navbar{
+  margin: 0px ;
+  background-color: #FAE3D9;
+  color: #DB7979;
+}
+
 
 #hero{
   height: 65vh;
   background-color: #FAE3D9
 }
-.navbar{
-  margin: 0px 7%;
-  background-color: #FAE3D9;
-  color: #DB7979;
- 
- 
+
+.I{
+  color: white;
+  font-size: 35px;
+  font-family: balsamiq;
 }
+
+.A{
+  color: #DB7979;
+  font-size: 20px;
+}
+
+
+#Bouton {
+ color: #DB7979;
+ width: 160px;
+ height: 60px;
+ font-size: 20px;
+ border-radius: 10px
+}
+
+
 
   
 #about {
@@ -71,6 +92,70 @@ section{
   margin: Opx; 7%
 }
 
+.skill-container{
+  width: 35%;
+}
+.progress-container{
+  margin: 7px 0px;
+  background-color: #E6E6E6;
+  height: 12px;
+  width: 100%;
+  border-radius: 8px;
+}
+.progress{
+  height:12px;
+  background-color: #FAE3D9;
+  width: 50%;
+  border-radius: 8px;
+}
+
+#Packoffice{
+   height:12px;
+  background-color: #DB7979;
+  width: 80%;
+  border-radius: 8px;
+}
+
+#Adobe{
+   height:12px;
+  background-color: #DB7979;
+  width: 60%;
+  border-radius: 8px;
+}
+
+#Figma{
+   height:12px;
+  background-color: #DB7979;
+  width: 75%;
+  border-radius: 8px;
+}
+
+#Finalcut{
+   height:12px;
+  background-color: #DB7979;
+  width: 60%;
+  border-radius: 8px;
+}
+
+#Google{
+   height:12px;
+  background-color: #DB7979;
+  width: 67%;
+  border-radius: 8px;
+}
+
+#Rsociaux{
+   height:12px;
+  background-color: #DB7979;
+  width: 90%;
+  border-radius: 8px;
+}
+
+.Skilltext{
+  font-size: 18px;
+  font-family: karla;
+  
+}
 .h-end { 
 align-items: flex-end;
 }
@@ -136,17 +221,6 @@ align-items: flex-end;
   
 }
 
-#Langues {
-  color: black;
-}
-
-#Bouton {
- color: #DB7979;
- width: 160px;
- height: 60px;
- font-size: 20px;
- border-radius: 10px
-}
 
 .full-width {
   width: 100%;
@@ -178,25 +252,19 @@ align-items: flex-end;
     }
 
 .Text{
-  text-align: left;
-  font-size: 18px
+  text-align: right;
+  font-size: 18px;
+  font-family: karla
 }
  
-.I{
-  color: white;
-  font-size: 35px;
-  font-family: balsamiq;
-}
+
 
 .H{
   display: flex;
   flex-direction: column; 
 }
 
-.A{
-  color: #DB7979;
-  font-size: 20px;
-}
+
 
 .P{
   width: 100%;
@@ -241,3 +309,4 @@ align-items: flex-end;
   border-color: #f0f0f0
 }
  
+
