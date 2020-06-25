@@ -209,7 +209,7 @@ align-items: flex-end;
 }
 
 #Projets {
-  min-height: 65vh; 
+  min-height: 75vh; 
   color: black;
   background-color: white
 }
@@ -339,17 +339,7 @@ align-items: flex-end;
   font-size: 18px
 }
 
-@media (max-width: 767px) {   
-  /* Tout les propriétés ajoutées ici seront uniquement prise en compte sur mobile */
-  .mobile-l-center{
-    justify-content: center;
-    
-  }
   
-  
-  .desktop{
-    display: none;
-  }
   #about{
     dispay: flex;
     flex-direction: column;
@@ -382,6 +372,38 @@ align-items: flex-end;
     display-flex:flex;
     flex-direction: column;
   }
+  
+@media (max-width: 767px) {   
+  /* Tout les propriétés ajoutées ici seront uniquement prise en compte sur mobile */
+  .mobile-l-center{
+    justify-content: center;
+    
+  }
+  
+  .desktop{
+    display: none;
+  }
+  
+  #about{
+    min-height: 90vh;
+  }
+  
+  #cursus {
+    min-height: 180vh;
+  }
+  
+  #Experiences{
+    min-height: 160vh;
+  
+  }
+  #Projets{
+    min-height: 180vh;
+    flex-direction: column; 
+  }
+  
+  
+  
+  }
+  
 }
- 
 
