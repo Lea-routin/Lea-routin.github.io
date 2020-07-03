@@ -1,17 +1,23 @@
 body{
   color: grey;
-  margin: 0px;
+  margin: 0px; 
+  font-family: karla;
 }
 section{
   height: 20vh;
   min-height: 20vh;
   padding: 50px 0px;
 }
-.container{
- 
-  margin: 0px 7%;
-  height: 100%;
+.container{ 
+  margin: 0px 100px;
+  overflow: hidden;
 }
+
+.job {
+	color: #DB7979;
+	font-size: 1.5em;
+}
+
 .l-spaced{
   justify-content: space-between;
 }
@@ -50,6 +56,49 @@ section{
   margin: 0px ;
   background-color: #FAE3D9;
   color: #DB7979;
+  text-align: center;
+  padding: 30px;
+} 
+
+.navbar a {
+	-moz-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+	text-decoration: none;
+	font-weight: bold;
+  color: #DB7979;
+  margin: 0 30px;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+.navbar a:hover {  
+  color: #fff; 
+}
+
+.myProjects {
+	-moz-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+	text-decoration: none;
+    background: #fff;
+    padding: 20px;
+    color: #DB7979;
+    width: 150px;
+    text-align: center;
+	margin: 35px 0 0 0;
+	font-size: 1.25em;
+}
+
+.tShadow {
+	text-shadow: 1px 1px 2px black;
+}
+
+.myProjects:hover { 
+    background: #DB7979; 
+    color: #ffffff; 
 }
 
 
@@ -60,8 +109,7 @@ section{
 
 .I{
   color: white;
-  font-size: 35px;
-  font-family: balsamiq;
+  font-size: 35px; 
 }
 
 .A{
@@ -83,7 +131,7 @@ section{
 
   
 #about {
-   height: 55vh;
+   height: 40vh;
   background-color: white;
   color: black;
 }
@@ -92,12 +140,17 @@ section{
   height: 65vh; 
   background-color: #AACFCF;
   color: black;
-  margin: Opx; 7%
+  margin: Opx;
 }
 
 .skill-container{
-  width: 35%;
+  width: 45%;
+  margin: 0 100px 0 0;
 }
+.skill-container-b{
+  width: 20%;
+}
+
 .progress-container{
   margin: 7px 0px;
   background-color: #E6E6E6;
@@ -114,49 +167,49 @@ section{
 
 #Packoffice{
    height:12px;
-  background-color: #DB7979;
+  background-color: #1f5782;
   width: 80%;
   border-radius: 8px;
 }
 
 #Adobe{
    height:12px;
-  background-color: #DB7979;
+  background-color: #1f5782;
   width: 60%;
   border-radius: 8px;
 }
 
 #Figma{
    height:12px;
-  background-color: #DB7979;
+  background-color: #1f5782;
   width: 75%;
   border-radius: 8px;
 }
 
 #Codepen{
    height:12px;
-  background-color: #DB7979;
+  background-color: #1f5782;
   width: 60%;
   border-radius: 8px;
 }
 
 #Google{
    height:12px;
-  background-color: #DB7979;
+  background-color: #1f5782;
   width: 67%;
   border-radius: 8px;
 }
 
 #Rsociaux{
    height:12px;
-  background-color: #DB7979;
+  background-color: #1f5782;
   width: 90%;
   border-radius: 8px;
 }
 
 .Skilltext{
-  font-size: 18px;
-  font-family: karla; 
+  font-size: 18px; 
+  margin: 0;
 }
 
 #Spain{
@@ -182,7 +235,7 @@ align-items: flex-end;
 }
 
 #cursus {
-  height: 65vh; 
+  height: 60vh; 
   color: black;
   background-color: white
 }
@@ -193,61 +246,70 @@ align-items: flex-end;
 }
 .Pres {
   width: 70%;
+  font-size: 1.05em;
 }
 
 .Graduate {
   width: 100%;
-  margin-bottom: 10px;
-  font-family: karla;
+  margin-bottom: 10px; 
   font-size: 18px;
 }
 
 #Experiences {
-  min-height: 95vh;
+      height: 80vh;
   background-color: #AACFCF;
   color: black
 }
 
 #Projets {
-  min-height: 75vh; 
+min-height: 50vh;
   color: black;
   background-color: white
 }
 
 #contact {
-  min-height: 65vh;
+  height: 40vh;
   color: black;
   background-color: #AACFCF;
 }
 
-.Intro {
-  font-family: karla;
+#contact a {
+	text-decoration: none;
+	color: black;
+}
+
+.Intro { 
 }
 
 #Titre {
-  color: #536A6A;
-  font-family: balsamiq;
-  font-size: 22px;
+  color: #536A6A; 
+  font-size: 22px; 
+  text-align: center;
+}
+
+.lang { 
+    position: relative;
+    top: 8px;
+    margin: 0 10px 0 0;
 }
 
 #Soustitre {
-  color: #536A6A;
-  font-family: balsamiq;
+  color: #536A6A; 
   font-size: 20px;
-  text-align: left
+  text-align: left;
+width: 25%;
+    padding-right: 50px;
+	text-align: right;
   
-}
-
+} 
 
 .full-width {
-  width: 100%;
-  text-align: center
+  width: 100%; 
 }
 
 .DC {
   flex-direction: column;
-  padding: 0px 120px 20px;
-  font-family: karla  
+  padding: 0px 120px 20px; 
 }
 
 
@@ -257,19 +319,17 @@ align-items: flex-end;
 }
 
 #Titrebis {
-  color: #DB7979;
-  font-family: balsamiq;
+  color: #DB7979; 
   font-size: 22px;
+  text-align: center;
     }
 
 .Text{
-  font-size: 18px;
-  font-family: karla;
-}
- 
-
+  font-size: 18px;  
+} 
 
 .H{
+width: 55%;
   display: flex;
   flex-direction: column; 
 }
@@ -303,15 +363,23 @@ align-items: flex-end;
   
 }
 
-.card img {
-  width: 100%;
-  height: 50%;
+
+.card-item { 
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+}
+
+.card img { 
+      height: 150px;
   background-color: white;
   
 }
 
 .card p {
-  padding: 0px 12px;
+padding: 0px 12px;
+    font-size: 15px;
+    text-align: center;
  
 }
    
@@ -322,8 +390,7 @@ align-items: flex-end;
 }
 
 .content {
-   display: flex;
-  font-family: karla;
+   display: flex; 
   font-size: 18px;
   height: 150px;
   width: 200px;
@@ -334,33 +401,74 @@ align-items: flex-end;
 }
  
 .telmail{
-  text-align:  left;
-  font-family: karla;
+	width: 50%;
+  text-align:  center; 
   font-size: 18px
 }
 
+.rstransport {
+	width: 50%;
+  text-align:  center; 
+  font-size: 18px
+}
+
+
+#gotop{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #DB7979;
+  opacity: .85;
+  width: 4rem;
+  height: 4rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  cursor: pointer;
+  font-size: 1.8rem;
+  transition: all .3s; 
+  display: none;
+} 
+
+#gotop i {
+	margin: 18px;
+}
+
+#gotop:hover{
+    background-color: #ea5555;
+  }
   
   #about{
     dispay: flex;
     flex-direction: column;
   }
   
-  .Moi{
-    height: 110px;
-    width: 110px
+  .Picture{
+    height: 250px;
+    width: 250px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	margin: 0 75px 0 0;
   }
   
   #Skill{
-    height: 100vh;
+    height: 60vh;
     align-item: center
   }
   
-  #cursus{
-     height: 100vh;  
-  }
+  .skill-container .child, 
+  .skill-container-b .child {
+	  font-size: 1.25em;
+  } 
   
-  #Experiences{
-     height: 120vh;
+  #Experiences .Text b {
+	    margin: 0 0 0 0;
+    display: block;
   }
   
   .cards{
@@ -372,6 +480,38 @@ align-items: flex-end;
     display-flex:flex;
     flex-direction: column;
   }
+  
+  .wave {
+  position: relative;
+  height: 70px;
+  width: 600px;
+  background: #FAE3D9;
+}
+
+.wave:before {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 340px;
+    height: 80px;
+    background-color: white;
+    right: -5px;
+    top: 40px;
+}
+
+.wave:after {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 300px;
+    height: 70px;
+    background-color: #FAE3D9;
+    left: 0;
+    top: 27px;
+}
+  
   
 @media (max-width: 767px) {   
   /* Tout les propriétés ajoutées ici seront uniquement prise en compte sur mobile */
