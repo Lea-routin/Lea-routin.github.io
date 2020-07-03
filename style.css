@@ -14,8 +14,8 @@ section{
 }
 
 .job {
-	color: #DB7979;
-	font-size: 1.5em;
+  color: #DB7979;
+  font-size: 1.5em;
 }
 
 .l-spaced{
@@ -61,12 +61,12 @@ section{
 } 
 
 .navbar a {
-	-moz-transition: all .2s ease-in;
-	-o-transition: all .2s ease-in;
-	-webkit-transition: all .2s ease-in;
-	transition: all .2s ease-in;
-	text-decoration: none;
-	font-weight: bold;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  text-decoration: none;
+  font-weight: bold;
   color: #DB7979;
   margin: 0 30px;
   text-transform: uppercase;
@@ -78,22 +78,22 @@ section{
 }
 
 .myProjects {
-	-moz-transition: all .2s ease-in;
-	-o-transition: all .2s ease-in;
-	-webkit-transition: all .2s ease-in;
-	transition: all .2s ease-in;
-	text-decoration: none;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  text-decoration: none;
     background: #fff;
     padding: 20px;
     color: #DB7979;
     width: 150px;
     text-align: center;
-	margin: 35px 0 0 0;
-	font-size: 1.25em;
+  margin: 35px 0 0 0;
+  font-size: 1.25em;
 }
 
 .tShadow {
-	text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px black;
 }
 
 .myProjects:hover { 
@@ -167,42 +167,42 @@ section{
 
 #Packoffice{
    height:12px;
-  background-color: #1f5782;
+  background-color: #DB7979;
   width: 80%;
   border-radius: 8px;
 }
 
 #Adobe{
    height:12px;
-  background-color: #1f5782;
+  background-color: #DB7979;
   width: 60%;
   border-radius: 8px;
 }
 
 #Figma{
    height:12px;
-  background-color: #1f5782;
+  background-color: #DB7979;
   width: 75%;
   border-radius: 8px;
 }
 
 #Codepen{
    height:12px;
-  background-color: #1f5782;
+  background-color: #DB7979;
   width: 60%;
   border-radius: 8px;
 }
 
 #Google{
    height:12px;
-  background-color: #1f5782;
+  background-color: #DB7979;
   width: 67%;
   border-radius: 8px;
 }
 
 #Rsociaux{
    height:12px;
-  background-color: #1f5782;
+  background-color: #DB7979;
   width: 90%;
   border-radius: 8px;
 }
@@ -274,8 +274,8 @@ min-height: 50vh;
 }
 
 #contact a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .Intro { 
@@ -299,7 +299,7 @@ min-height: 50vh;
   text-align: left;
 width: 25%;
     padding-right: 50px;
-	text-align: right;
+  text-align: right;
   
 } 
 
@@ -401,13 +401,13 @@ padding: 0px 12px;
 }
  
 .telmail{
-	width: 50%;
+  width: 50%;
   text-align:  center; 
   font-size: 18px
 }
 
 .rstransport {
-	width: 50%;
+  width: 50%;
   text-align:  center; 
   font-size: 18px
 }
@@ -435,7 +435,7 @@ padding: 0px 12px;
 } 
 
 #gotop i {
-	margin: 18px;
+  margin: 18px;
 }
 
 #gotop:hover{
@@ -450,10 +450,10 @@ padding: 0px 12px;
   .Picture{
     height: 250px;
     width: 250px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	margin: 0 75px 0 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0 75px 0 0;
   }
   
   #Skill{
@@ -463,11 +463,11 @@ padding: 0px 12px;
   
   .skill-container .child, 
   .skill-container-b .child {
-	  font-size: 1.25em;
+    font-size: 1.25em;
   } 
   
   #Experiences .Text b {
-	    margin: 0 0 0 0;
+      margin: 0 0 0 0;
     display: block;
   }
   
@@ -514,7 +514,7 @@ padding: 0px 12px;
   
   
 @media (max-width: 767px) {   
-  /* Tout les propriétés ajoutées ici seront uniquement prise en compte sur mobile */
+  /* Tout les propriÃ©tÃ©s ajoutÃ©es ici seront uniquement prise en compte sur mobile */
   .mobile-l-center{
     justify-content: center;
     
